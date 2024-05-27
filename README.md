@@ -1,11 +1,11 @@
-# app_resolve_multas
-APP criado no stack MERN, com código gerado pelo chatGPT.
+# App Resolve Multas
+APP criado no stack MERN, com código gerado pelo chatGPT e Blackbox AI.
 
 # Backend Setup:
-- Initialize the Node.js project (bash):
-mkdir business-website
-// cd business-website
-// npm init -y
+Initialize the Node.js project (bash):
+- mkdir business-website
+- cd business-website
+- npm init -y
   
 - Install required packages (bash):
 npm install express mongoose dotenv cors
