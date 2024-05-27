@@ -1,6 +1,7 @@
 # App Resolve Multas
 APP criado no stack MERN, com código gerado pelo chatGPT e Blackbox AI.
 
+# 1 - Setting up the project
 # Backend Setup:
 Initialize the Node.js project (bash):
 - mkdir business-website
@@ -38,3 +39,5 @@ Create the project structure (bash):
 Set up React Router (src/App.js):
 - App.js
 
+# 2 - Building the UI components
+#
