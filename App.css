@@ -1,0 +1,147 @@
+/* Estilos básicos para os componentes */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cta-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.features,
+.pricing,
+.subscription {
+    padding: 50px 0;
+    text-align: center;
+}
+  
+.features-cards,
+.pricing-plans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.card,
+.plan {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+  
+.footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+  
+.footer .social-media-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+  
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #25D366;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.whatsapp-button img {
+    width: 24px;
+    height: 24px;
+}
+  
+.navbar {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.navbar .logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+  
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+  
+.navbar .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+  
+.navbar .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+  
+.navbar .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 3px 0;
+}
+  
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #333;
+    }
+  
+    .navbar .menu.open {
+        display: flex;
+    }
+  
+    .navbar .hamburger {
+        display: flex;
+    }
+}
+  
