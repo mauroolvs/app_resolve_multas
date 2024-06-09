@@ -1,0 +1,32 @@
+Configurar o Projeto
+
+Backend
+	Inicializar o projeto Node.js e configurar o servidor
+	No diretório raiz (project-website):
+		mkdir server
+		cd server
+		npm init -y
+		npm install express mongoose body-parser cors dotenv
+		npm install nodemon --save-dev
+	Criar server.js
+	Criar .env
+	Atualizar package.json
+	
+	Modelos e Rotas
+	Criar models/Subscription.js
+	Criar routes/subscriptions.js
+
+Frontend
+	Inicializar o projeto React
+	No diretório raiz (project-website):
+		npx create-react-app client
+		cd client
+		npm install axios
+
+Executar a Aplicação
+	Iniciar o servidor backend
+		No diretório server:
+			npm run server
+	Iniciar a aplicação React
+		No diretório client:
+			npm start

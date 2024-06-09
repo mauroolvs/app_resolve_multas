@@ -1,0 +1,22 @@
+Backend Setup
+	Initialize the Backend Project
+		mkdir server
+		cd server
+		npm init -y
+		npm install express mongoose cors
+
+	Create Database Configuration (server/config/db.js)
+	Create Email Model (server/models/Email.js)
+	Create Email Routes (server/routes/email.js)
+	Create Server Configuration (server/server.js)
+
+Add Configuration (server/config/default.json)
+	Create a config directory in the server folder, then add a default.json file
+
+Full Project Initialization
+	Start the Backend Server
+		cd server
+		node server.js
+	Start the Frontend Application
+		cd client
+		npm start

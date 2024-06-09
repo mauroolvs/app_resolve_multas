@@ -1,0 +1,29 @@
+project-website/
+├── client/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── path_to_whatsapp_icon.png
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Features.js
+│   │   │   ├── Footer.js
+│   │   │   ├── Hero.js
+│   │   │   ├── Navbar.js
+│   │   │   ├── Pricing.js
+│   │   │   ├── Subscription.js
+│   │   │   └── WhatsappButton.js
+│   │   ├── App.css
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── serviceWorker.js
+│   ├── package.json
+│   └── ...
+├── server/
+│   ├── models/
+│   │   └── Subscription.js
+│   ├── routes/
+│   │   └── subscriptions.js
+│   ├── .env
+│   ├── package.json
+│   └── server.js
+└── ...
